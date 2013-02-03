@@ -13,4 +13,6 @@
 #include "type/vector.hpp"
 #include "type/tuple.hpp"
 #include "type/define.hpp"
-
+#if __cplusplus >= 201103L
+#include "type/c++11/tuple.hpp"
+#endif
